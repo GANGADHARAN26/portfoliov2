@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Gangadharan",
+  lastName: "A",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Web developer",
+  avatar: "/images/linkedinProfile.jpg",
+  location: "India/Chennai", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Tamil"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -17,8 +17,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about design, technology, and share thoughts on the
+      intersection of creativity and engineering.
     </>
   ),
 };
@@ -29,22 +29,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/GANGADHARAN26",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/gangadharan07/",
   },
   {
     name: "X",
     icon: "x",
-    link: "",
+    link: "https://x.com/Gangadharan_26",
   },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:gangadharana01@gmail.com",
   },
 ];
 
@@ -52,10 +52,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Sofware Developer and Devops</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+      I'm Gangadharan, a Software developer at{" "}
+      <InlineCode>Nura9 solutions</InlineCode>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -81,9 +82,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Selene is a Jakarta-based design engineer with a passion for
+        transforming complex challenges into simple, elegant design solutions.
+        Her work spans digital interfaces, interactive experiences, and the
+        convergence of design and technology.
       </>
     ),
   },
@@ -92,42 +94,37 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Nura9 solutions",
+        timeframe: "2024/Oct - 2025/Janu",
+        role: "Front End Intern",
         achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+          <>Worked in AI LMS Project</>,
+          <>Developing user friendly and Responsive UI's</>,
+          <>Implementations of API and Latest technologies like STT and TSS Voice Bot</>,
+          <>Worked on deployement with AWS Cloud service</>,
+          <>Skills - React, TailwindCSS, Javascript, AWS ( S3, CloudFront, Route53, Route53 Hostzone ), GitHub, Postman, Hopstcotch, Redux Toolkit</>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Lunara solutions",
+        timeframe: "2024/June - 2025/Oct",
+        role: "Front End Intern",
         achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          <>Worked in ERP Project</>,
+          <>Developing user friendly and Responsive UI's</>,
+          <>Implementations of API with better performance</>,
+          <>Coordinatng and combining with team and managing code</>,
+          <>Skills - React, TailwindCSS, Javascript, Github</>,
+
         ],
         images: [],
       },
@@ -138,12 +135,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Jeppiaar engineering college",
+        description: <>Studied Bachelors in Informational Technology.</>,
       },
     ],
   },
@@ -152,36 +145,94 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "HTML",
+        description: <>Structuring web content with semantic HTML.</>,
+        images: [],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "CSS",
+        description: <>Styling websites using modern CSS techniques.</>,
+        images: [],
+      },
+      {
+        title: "Bootstrap",
+        description: <>Using Bootstrap for responsive and fast UI development.</>,
+        images: [],
+      },
+      {
+        title: "Tailwind CSS",
+        description: <>Building modern UIs efficiently with Tailwind CSS.</>,
+        images: [],
+      },
+      {
+        title: "Material UI",
+        description: <>Creating sleek and accessible UIs using Material UI.</>,
+        images: [],
+      },
+      {
+        title: "JavaScript",
+        description: <>Building dynamic and interactive web applications.</>,
+        images: [],
+      },
+      {
+        title: "React",
+        description: <>Developing fast and scalable frontend applications with React.</>,
+        images: [],
+      },
+      {
+        title: "React Native",
+        description: <>Creating cross-platform mobile applications using React Native.</>,
+        images: [],
+      },
+      {
+        title: "Redux",
+        description: <>Managing global state efficiently with Redux.</>,
+        images: [],
+      },
+      {
+        title: "Node.js",
+        description: <>Building scalable backend services with Node.js.</>,
+        images: [],
+      },
+      {
+        title: "Express.js",
+        description: <>Developing RESTful APIs with Express.js.</>,
+        images: [],
+      },
+      {
+        title: "MongoDB",
+        description: <>Storing and managing data with MongoDB.</>,
+        images: [],
+      },
+      {
+        title: "SQL",
+        description: <>Handling structured data with SQL databases.</>,
+        images: [],
+      },
+      {
+        title: "AWS S3",
+        description: <>Storing and serving files securely using AWS S3.</>,
+        images: [],
+      },
+      {
+        title: "CloudFront",
+        description: <>Delivering content with low latency using CloudFront.</>,
+        images: [],
+      },
+      {
+        title: "Route53",
+        description: <>Managing domain names and DNS records with Route53.</>,
+        images: [],
+      },
+      {
+        title: "Route53 HostZone",
+        description: <>Configuring domain routing using Route53 HostZone.</>,
+        images: [],
+      },
+      {
+        title: "Certificate Manager",
+        description: <>Handling SSL/TLS certificates securely with AWS Certificate Manager.</>,
+        images: [],
       },
     ],
   },
