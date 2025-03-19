@@ -1,4 +1,4 @@
-const baseURL = "portfoliov2-omega-seven.vercel.app";
+const baseURL = "gangadharan2.vercel.app";
 
 const routes = {
   "/": true,
