@@ -41,6 +41,7 @@ export default function Home() {
   return (
     <Column maxWidth="m" gap="xl" horizontal="center">
       <script
+      
         type="application/ld+json"
         suppressHydrationWarning
         dangerouslySetInnerHTML={{
@@ -62,6 +63,7 @@ export default function Home() {
           }),
         }}
       />
+      
       <Column fillWidth paddingY="l" gap="m">
         <Column maxWidth="s">
           <RevealFx translateY="4" fillWidth horizontal="start" paddingBottom="m">
